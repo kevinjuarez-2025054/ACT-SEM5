@@ -1,6 +1,6 @@
 import { createInterface } from 'readline/promises';
-import { ClienteService } from '../service/cliente.service';
-import { Cliente } from '../models/cliente.model';
+import { ClienteService } from '../service/clienteService';
+import { Cliente } from '../models/cliente';
 
 type Rl = ReturnType<typeof createInterface>;
 
